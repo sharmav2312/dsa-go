@@ -6,9 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Main Started")
-	if err := arrays.PrintArray([]int{1, 2, 3}); err != nil {
-		fmt.Println(err.Error())
-	}
+	// reverse integer
+	rev := arrays.ReverseNumber(43435)
+	fmt.Println("Reversed Integer: ", rev)
 
 }
