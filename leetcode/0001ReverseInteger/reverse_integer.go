@@ -1,9 +1,9 @@
-package arrays
+package leetcode
 
 import "math"
 
-// ReverseNumber reverts an integer.
-func ReverseNumber(x int) int {
+// ReverseInteger reverts an integer.
+func ReverseInteger(x int) int {
 	rev := 0
 	for x != 0 {
 		rem := x % 10
